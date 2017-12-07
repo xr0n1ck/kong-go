@@ -32,7 +32,7 @@ type KongAPI struct {
 	// kong 0.10.x and later
 	Hosts     []string `json:"hosts,omitempty"`
 	Uris      []string `json:"uris,omitempty"`
-	Strip_uri bool     `json:"strip_uri,omitempty"`
+	Strip_uri bool     `json:"strip_uri"`
 }
 
 const (
